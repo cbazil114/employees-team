@@ -2,24 +2,34 @@
 
 }
 
+header {
+   background-color: red;
+   color: white;
+   text-align: center; 
+}
+
 .card {
     box-shadow: 0 4px 8px 0;
+    margin: 10px;
 }
 
 .card-header {
     background-color: blue;
     color: whitesmoke;
+    text-align: center;
 }
 
 .card-body {
-
+    margin:auto;
+    padding:5px;
 }
 
 .container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-body {
 
-}
 
