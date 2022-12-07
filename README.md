@@ -18,6 +18,9 @@ You will need dependencies such as Inquirer and Jest. Use npm i after cloning fr
 ## Usage
 Once a user accesses the node index.js in their command line, they will be presented with a series of questions, utilizing Inquirer. You will then answer questions for each member of your team until there is no one left to add. 
 
+[Screencastify](https://drive.google.com/file/d/1VdKuErwTwm7ECS9U2kCEvWOEFNdsg7kZ/view)
+![Screenshot](./src/_Users_connorbazil_Desktop_Code%2520Repos_employees-team_dist_index.html.png)
+
 ## Contributing
 
   Visit the public repository on Github
