@@ -1,6 +1,6 @@
 const createPage = (teamGroup) => {
     console.log("It's the team!", teamGroup)
-    const cards = []
+    let cards = ``
     // let card = `<h1>${teamGroup[0].name}</h1>`
     // cards.push(card)
 
@@ -19,7 +19,7 @@ const createPage = (teamGroup) => {
                 </div>
             </div>
             `
-            cards.push(card)
+            cards += card
         } else if (teamGroup[i].getRole()==="Manager") {
             let card = `
             <div class = "card">
@@ -34,7 +34,8 @@ const createPage = (teamGroup) => {
                 </div>
             </div>
             `
-            cards.push(card)
+            // cards.push(card)
+            cards += card
         } else if (teamGroup[i].getRole()==="Intern") {
             let card = `
             <div class = "card">
@@ -49,7 +50,7 @@ const createPage = (teamGroup) => {
                 </div>
             </div>
             `
-            cards.push(card)
+            cards += card
         }
     }
 
