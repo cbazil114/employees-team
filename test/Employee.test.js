@@ -19,7 +19,7 @@ it("Can get an employee name", () => {
 // }
 it("Can get an employee ID", () => {
     const employee = new Employee("Connor", 1, "cbazil@hotmail.com")
-    expect(employee.getName()).toEqual(1)
+    expect(employee.getId()).toEqual(1)
 })
 
 // getEmail() {
@@ -28,7 +28,7 @@ it("Can get an employee ID", () => {
 
 it("Can get an employee email", () => {
     const employee = new Employee("Connor", 1, "cbazil@hotmail.com")
-    expect(employee.getName()).toEqual("cbazil@hotmail.com")
+    expect(employee.getEmail()).toEqual("cbazil@hotmail.com")
 })
 
 // getRole() {

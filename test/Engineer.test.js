@@ -7,6 +7,6 @@ it("Can create instance of employee", () => {
 })
 
 it("Can display the school name of the intern", () => {
-    const intern = new Intern("Connor", 1, "cbazil@hotmail.com", "cbazil114")
+    const engineer = new Engineer("Connor", 1, "cbazil@hotmail.com", "cbazil114")
     expect(engineer.getGithub()).toEqual("cbazil114")
 })
