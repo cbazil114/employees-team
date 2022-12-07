@@ -5,20 +5,32 @@ const Employee = require("../lib/Employee")
 //     expect(typeof(employee)).toBe("object")
 // })
 
+
+// getName() {
+//     return this.name;
+// }
 it("Can get an employee name", () => {
     const employee = new Employee("Connor", 1, "cbazil@hotmail.com")
     expect(employee.getName()).toEqual("Connor")
 })
 
-// getName() {
-//     return this.name;
-// }
 // getId() {
 //     return this.id;
 // }
+it("Can get an employee ID", () => {
+    const employee = new Employee("Connor", 1, "cbazil@hotmail.com")
+    expect(employee.getName()).toEqual(1)
+})
+
 // getEmail() {
 //     return this.email;
 // }
+
+it("Can get an employee email", () => {
+    const employee = new Employee("Connor", 1, "cbazil@hotmail.com")
+    expect(employee.getName()).toEqual("cbazil@hotmail.com")
+})
+
 // getRole() {
 //     return "Employee";
 // }

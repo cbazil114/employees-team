@@ -13,9 +13,9 @@ const createPage = (teamGroup) => {
                     <h2>"Engineer"</h2>
                 </div>
                 <div class="card-body">
-                    <p> "ID: " ${teamGroup[i].id}</p>
-                    <p> "Email: " ${teamGroup[i].email}</p>
-                    <p> "Github: " ${teamGroup[i].github}</p>
+                    <p> ID: ${teamGroup[i].id}</p>
+                    <p>Email: <a href = "mailto: ${teamGroup[i].email}">${teamGroup[i].email}</a></p>
+                    <p> Github: ${teamGroup[i].github}</p>
                 </div>
             </div>
             `
@@ -25,12 +25,12 @@ const createPage = (teamGroup) => {
             <div class = "card">
                 <div class="card-header">
                     <h2>${teamGroup[i].name}</h1>
-                    <h2>"Manager"</h2>
+                    <h2>Manager</h2>
                 </div>
                 <div class="card-body">
-                    <p> "ID: " ${teamGroup[i].id}</p>
-                    <p> "Email: " ${teamGroup[i].email}</p>
-                    <p> "Office Number: " ${teamGroup[i].officeNumber}</p>
+                    <p> ID: ${teamGroup[i].id}</p>
+                    <p>Email: <a href = "mailto: ${teamGroup[i].email}">${teamGroup[i].email}</a></p>
+                    <p> Office Number: ${teamGroup[i].officeNumber}</p>
                 </div>
             </div>
             `
@@ -43,9 +43,9 @@ const createPage = (teamGroup) => {
                     <h2>"Intern"</h2>
                 </div>
                 <div class="card-body">
-                    <p> "ID: " ${teamGroup[i].id}</p>
-                    <p> "Email: " ${teamGroup[i].email}</p>
-                    <p> "School: " ${teamGroup[i].school}</p>
+                    <p> ID: ${teamGroup[i].id}</p>
+                    <p>Email: <a href = "mailto: ${teamGroup[i].email}">${teamGroup[i].email}</a></p>
+                    <p> School: ${teamGroup[i].school}</p>
                 </div>
             </div>
             `
